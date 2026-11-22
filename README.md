@@ -105,6 +105,15 @@ Training produces `best_llm_model.pth` and prints per-epoch metrics. After train
 
 ## Dataset
 
+The paper evaluates BiMind on four public datasets, available from their original sources:
+
+| Dataset | Domain | Source |
+|---|---|---|
+| MM COVID (Li et al., 2020) | Health | [bigheiniu/MM-COVID](https://github.com/bigheiniu/MM-COVID) |
+| ReCOVery (Zhou et al., 2020) | Health | [apurvamulay/ReCOVery](https://github.com/apurvamulay/ReCOVery) |
+| LIAR (Wang, 2017) | News content | [liar_dataset.zip](https://www.cs.ucsb.edu/~william/data/liar_dataset.zip) |
+| MC Fake (Min et al., 2022) | Multi-domain | [qwerfdsaplking/MC-Fake](https://github.com/qwerfdsaplking/MC-Fake) |
+
 Default: [ReCOVery](https://github.com/apurvamulay/ReCOVery) — a COVID-19 dataset.  
 Any CSV with `statement` (text) and `label` (class) columns is compatible.
 
